@@ -3,16 +3,8 @@
     <div class="topNav">
       <div class="topNavLeft">
         <img class="logo" src="@/assets/logo.svg" />
-        <p>探索</p>
-        <p>题库</p>
-        <p>圈子</p>
-        <p>竞赛</p>
-        <p>面试</p>
-        <p>商店</p>
       </div>
       <div class="topNavRight">
-        <img class="news" src="@/assets/new.svg" />
-        <img class="user" src="@/assets/user.svg" />
         <avatar></avatar>
       </div>
     </div>
