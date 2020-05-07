@@ -6,7 +6,7 @@
     </span>
     <el-dropdown-menu slot="dropdown">
       <el-dropdown-item icon="el-icon-user">个人中心</el-dropdown-item>
-      <el-dropdown-item icon="el-icon-top-left">退出</el-dropdown-item>
+      <el-dropdown-item icon="el-icon-top-left" @click.native="logout()">退出</el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
 </template>
@@ -31,6 +31,10 @@ export default {
   methods: {
     handleClick() {
       alert("button click");
+    },
+    logout() {
+      console.log('logout')
+      this.$router.push('login')
     }
   }
 };
