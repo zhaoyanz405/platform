@@ -13,11 +13,20 @@
       <div class="topNavRight">
         <img class="news" src="@/assets/new.svg" />
         <img class="user" src="@/assets/user.svg" />
+        <avatar></avatar>
       </div>
     </div>
     <!-- <div class="line"></div> -->
   </div>
 </template>
+<script>
+import avatar from '@/components/avatar'
+export default {
+  components: {
+    avatar
+  }
+}
+</script>
 <style scoped>
 .topNav {
   display: flex;
