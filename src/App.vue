@@ -5,7 +5,7 @@
         <head-menu></head-menu>
       </el-header>
       <el-container>
-        <el-aside width="200px">
+        <!-- <el-aside width="200px">
           <h5>默认颜色</h5>
           <el-menu
             default-active="2"
@@ -44,7 +44,7 @@
               <span slot="title">导航四</span>
             </el-menu-item>
           </el-menu>
-        </el-aside>
+        </el-aside> -->
         <el-container>
           <el-main>
             <item-bank></item-bank>
